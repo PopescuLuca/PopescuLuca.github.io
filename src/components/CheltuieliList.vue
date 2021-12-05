@@ -44,6 +44,7 @@ export default {
           });
 
           this.$store.dispatch("fetchCheltuieli", res);
+          
           //this.cheltuieliList = res;
         })
       );
